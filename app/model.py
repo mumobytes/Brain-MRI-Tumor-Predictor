@@ -44,7 +44,7 @@ def load_brain_tumor_model():
     checkpoint = torch.load(
         CHECKPOINT_PATH,
         map_location=DEVICE,
-        weights_only=False,
+        weights_only=True,
     )
 
     model.load_state_dict(checkpoint["model_state_dict"])
