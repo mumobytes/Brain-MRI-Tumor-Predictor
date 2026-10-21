@@ -1,0 +1,25 @@
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Test uploads
+empty_mri.png
+fake_mri.png
+fake_mri.mat
+
+# Frontend dependencies and build output
+neuroframe/node_modules/
+neuroframe/dist/
+
+# Local development files
+.vscode/
+.DS_Store
